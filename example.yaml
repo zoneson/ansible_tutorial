@@ -1,0 +1,10 @@
+# start
+---
+  - hosts: 172.16.0.208
+    tasks:
+      - name: test connection
+        ping:
+      - name: show directories and files
+        command: ls -l
+...
+# end
